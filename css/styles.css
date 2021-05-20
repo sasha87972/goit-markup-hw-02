@@ -6,7 +6,7 @@
   --dark-bgd: #2f303a;
   --white-rgba: rgba(255, 255, 255, 0.6);
 }
-body {
+.body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
