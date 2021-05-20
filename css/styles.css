@@ -57,7 +57,7 @@
 }
 .site-nav-item:focus,
 .site-nav-item:hover {
-  color: var(--nt-clr);
+  color: var(--blue-clr);
 }
 .current {
   color: var(--blue-clr);
