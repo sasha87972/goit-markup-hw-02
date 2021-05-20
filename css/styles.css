@@ -112,23 +112,26 @@
 .footer {
   background-color: var(--dark-bgd);
 }
-.logo-footer {
+.white {
   color: var(--white-text);
 }
 .adress {
   font-style: normal;
 }
-.adress-item-map {
+
+.adress-item {
   font-size: 14px;
   line-height: 1.71;
   color: var(--white-text);
   text-decoration: none;
 }
-.adress-item {
-  font-size: 14px;
-  line-height: 1.71;
+a.transp {
   color: var(--white-rgba);
-  text-decoration: none;
+}
+
+.adress-item:focus,
+.adress-item:hover {
+  color: var(--blue-clr);
 }
 
 /* портфолио */
