@@ -7,7 +7,7 @@
   --white-rgba: rgba(255, 255, 255, 0.6);
 }
 .body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.71;
   color: var(--grey-text);
@@ -35,7 +35,7 @@
 /* шапка */
 
 .logo {
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
