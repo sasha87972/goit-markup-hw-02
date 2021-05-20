@@ -7,7 +7,7 @@
   --white-rgba: rgba(255, 255, 255, 0.6);
 }
 .body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.71;
   color: var(--grey-text);
@@ -16,6 +16,9 @@
 
 .list {
   list-style: none;
+}
+.links a {
+  text-decoration: none;
 }
 .sec-title {
   font-weight: bold;
@@ -35,12 +38,11 @@
 /* шапка */
 
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   color: var(--black-text);
-  text-decoration: none;
 }
 .logo-part {
   color: var(--blue-clr);
@@ -52,7 +54,6 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--black-text);
-  text-decoration: none;
 }
 .site-nav-item:focus,
 .site-nav-item:hover {
@@ -66,7 +67,6 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
   color: var(--grey-text);
 }
 .contacts-item:focus,
@@ -97,6 +97,7 @@
   letter-spacing: 0.06em;
   color: var(--white-text);
   cursor: pointer;
+  border-radius: 4px;
 }
 /* о нас */
 .text {
@@ -124,7 +125,7 @@
   font-size: 14px;
   line-height: 1.71;
   color: var(--white-text);
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 a.transp {
   color: var(--white-rgba);
@@ -144,26 +145,23 @@ a.transp {
   text-align: center;
   color: var(--black-text);
   cursor: pointer;
+  border-radius: 4px;
 }
 .filter-btn:focus,
 .filter-btn:hover {
   background-color: var(--blue-clr);
   color: var(--white-text);
 }
-.project-card {
-  text-decoration: none;
-}
+
 .project-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--black-text);
-  text-decoration: inherit;
 }
 .project-group {
   font-size: 16px;
   line-height: 1.87;
   color: var(--grey-text);
-  text-decoration: inherit;
 }
