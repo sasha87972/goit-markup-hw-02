@@ -96,6 +96,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-text);
+  cursor: pointer;
 }
 /* о нас */
 .text {
@@ -142,6 +143,7 @@ a.transp {
   line-height: 1.62;
   text-align: center;
   color: var(--black-text);
+  cursor: pointer;
 }
 .filter-btn:focus,
 .filter-btn:hover {
